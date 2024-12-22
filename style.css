@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: aqua;
+}
+.heading{
+    text-shadow: 3px 2px 3px white;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+#content{  
+    padding-top: 1vh;
+    height: 65vh;
+   display: grid;
+   place-items: center;
+   grid-template-columns: repeat(2, 1fr);
+}
+.hidden{
+    visibility: hidden;
+}
+
+.courses{
+    height: 80vh;
+    width: 50vh;
+    background-color: blueviolet;
+    text-align: center;
+}
+#btn{
+    width: 150px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: cornflowerblue;
+}
+.button2{
+    width: 100%;
+    margin: auto;  
+    padding-left: 12vh;  
+}
+#btn1{
+    width: 80px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: cornflowerblue;
+  }
+.dsa{
+    background-color: blanchedalmond;
+    height: 150px;
+    width: 150px;
+    border-radius: 5px;
+}
+.webdev{
+    background-color: blanchedalmond;
+    height: 150px;
+    width: 150px;
+    border-radius: 5px;
+}
+.python{
+    background-color: blanchedalmond;
+    height: 150px;
+    width: 150px;
+    border-radius: 5px;
+}
+.java{
+    background-color: blanchedalmond;
+    height: 150px;
+    width: 150px;
+    border-radius: 5px;
+}
+@media (max-height: 650px)
+{
+    .hidden{
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+
+
